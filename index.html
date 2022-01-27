@@ -9,66 +9,82 @@
     <title>Yuka - Landing Page</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="cabecalho">
+        <nav class="navegacao">
             <img src="imagens/logo-Yuka.svg" alt="Logo Yuca">
-            <button>Quero investir</button>
+            <button class="button-all">Quero investir</button>
         </nav>
     </header>
     
 <main>
     <section class="main-section">
+        <div class="main-section-div">
         <h1>Invista com quem mais inova no setor imobiliário</h1>
         <h2>Conheça o mais novo empreendimento da Yuca no Edifício Copan e invista a partir de R$10.000</h2>
         <button class="button-all button-first"> Quero investir</button>
+        </div>
+
+        <div class="main-section-img">
         <img src="imagens/main-image.svg" alt="Duas pessoas sentadas, rindo, enquanto tomam café">
+       </div>
     </section>
 
     <section class="div-section">
+    <div class="div-text">
         <h1>Investir em imóveis pode ser simples.</h1>
-        <h3>A Yuca conecta você às melhores oportunidades de investimento de renda residencial. Não importa se você já investe no setor imobiliário ou se quer começar agora.</h3>
+        <p>A Yuca conecta você às melhores oportunidades de investimento de renda residencial. Não importa se você já investe no setor imobiliário ou se quer começar agora.</p>
+
+    </div>
+
+    <div class="container-divs">
 
         <div class="first-div">
             <img src="imagens/img-pessoa.svg" alt="Logo de Estabilidade e liquidez">
-            <h2>Estabilidade e liquidez</h2>
+            <h3>Estabilidade e liquidez</h3>
             <p>Imóveis com alta taxa de ocupação em localizações estratégicas, reformados e expostos à valorização imobiliária.</p>
         </div>
         <div class="second-div">
             <img src="imagens/img-dinheiro.svg" alt="Logo de Estabilidade e liquidez">
-            <h2>Estabilidade e liquidez</h2>
+            <h3>Estabilidade e liquidez</h3>
             <p>Moradia é uma necessidade básica. A Yuca oferece oportunidades reais, estáveis e boas para diversificação</p>
         </div>
         <div class="third-div">
             <img src="imagens/img-lupa.svg" alt="Representação de uma lupa">
-            <h2>Excelentes retornos</h2>
+            <h3>Excelentes retornos</h3>
             <p>Rendimentos mensais sem esforços, gerados a partir de operações mantidas 100% pela Yuca.</p>
         </div>
-
+    </div>
     </section>
 
     <section class="details-section">
         <h2>Conheça o projeto</h2>
-        <img src="imagens/grafico.svg" >
-        <div>
-            <h3>Yuca IV: Edifício Copan</h3>
-            <h4>Status: Ativa</h4>
-            <p>Rentabilidade alvo (tir): 23,30% a.a.</p>
-            <p>Valor da cota: R$ 25.000,00</p>
-            <p>Valor captado: R$ 580.000,00</p>
-            <p>Participação: 1.3378% por cota</p>
-            <button class="button-all button-grafico">Quero investir</button>
+        <div class="details-section-firstdiv">
+                <div class="details-section-div">
+                    <h3>Yuca IV: Edifício Copan</h3>
+                    <h4>Status: Ativa</h4>
+                    <p>Rentabilidade alvo (tir): 23,30% a.a.</p>
+                    <p>Valor da cota: R$ 25.000,00</p>
+                    <p>Valor captado: R$ 580.000,00</p>
+                    <p>Participação: 1.3378% por cota</p>
+                    <button class="button-all button-grafico">Quero investir</button>
+                </div>
+                <img src="imagens/grafico.svg" >
         </div>
+
+        <div class="details-section-seconddiv">
         <img src="imagens/pessoa-financeira.svg">
-        <p class="big-paragraph">Nesta captação investidores serão sócios da Yuca em uma empresa que será proprietária de 02 apartamentos de 110 m2 no Edifício Copan, um dos mais famosos prédios do país, situado centro de São Paulo. 
+        <article>
+        <p class="big-paragraph">Nesta captação investidores serão sócios da Yuca em uma empresa que será proprietária de 02 apartamentos de 110 m2 no Edifício Copan, um dos mais famosos prédios do país, situado centro de São Paulo. </p>
 
-            Os apartamentos serão reformados, mobiliados e equipados, para posterior locação de seus quartos. cada um deles possuiá 4 quartos e 4 banheiros. 
+        <p>Os apartamentos serão reformados, mobiliados e equipados, para posterior locação de seus quartos. cada um deles possuiá 4 quartos e 4 banheiros. </p>
             
-            O aluguel de cada quarto mobiliado e equipado irá variar de R$ 2.600 a R$ 3.070, valor que já inclui condomínio, IPTU, serviço de limpeza e internet. Estes valores estão cerca de 30% abaixo do valor de aluguel de um apartamento de 1 quarto (25-40 m2) na região.</p>
+        <p> O aluguel de cada quarto mobiliado e equipado irá variar de R$ 2.600 a R$ 3.070, valor que já inclui condomínio, IPTU, serviço de limpeza e internet. Estes valores estão cerca de 30% abaixo do valor de aluguel de um apartamento de 1 quarto (25-40 m2) na região.</p>
         <button class="button-all button-grafico2">Veja o projeto completo</button>
-
+    </article>
+    </div>
     </section>
 
-    <section class="our-clientes-section">
+    <section class="our-clients-section">
         <h2>Quem investe com a gente</h2>
         <p>+500 pessoas já investiram até o momento na Yuca.</p>
         <div class="more-about-section">
@@ -81,7 +97,7 @@
     </section>
 
     <section class="forms-section">
-        <div>
+        <div class="forms-section-one">
             <h2>Quero investir no Fundo Yuca IV: Copam</h2>
             <p>O time de especialistas da Yuca vai entrar em contato com você e explicar as vantagens de ter um ativo residencial para renda</p>
         </div>
@@ -99,18 +115,24 @@
                 <button type="submit" class="button-all button-forms">Quero investir</button>
             </form>
         </div>
-        <img>
+        
     </section>
-    
+    <div class="rotating-img">
+    <img src="imagens/wave.svg">
+    </div>
 </main>
 
 <footer>
-    <p><b>Documentos jurídicos</b></p>
-    <p><b>Termos de serviço</b></p>
-    <p><b>Política de privacidade</b></p>
-    <p><b>Autorização CVM</b></p>
-    <p class="description">Yuca</p>
-    <p class="description">Yuca Comunidade e Tecnologia Ltda @ 2020 CNPJ: 34.399.713/0001-90</p>
+        <div class="footer-links">
+            <p><b>Documentos jurídicos</b></p>
+            <p><b>Termos de serviço</b></p>
+            <p><b>Política de privacidade</b></p>
+            <p><b>Autorização CVM</b></p>
+        </div>
+        <div class="footer-info">
+            <p class="description">Yuca</p>
+            <p class="description">Yuca Comunidade e Tecnologia Ltda @ 2020 CNPJ: 34.399.713/0001-90</p>
+        </div>
 </footer>
 </body>
 </html>

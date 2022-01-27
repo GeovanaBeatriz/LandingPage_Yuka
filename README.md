@@ -12,4 +12,4 @@ This landing page was a prototype created in one of the EBAC's Workshop. It's ab
 ### The result: 
 ![127 0 0 1_5500_index html(Nest Hub Max)](https://user-images.githubusercontent.com/79049461/151412162-65b4901b-c2fa-4cb4-8a92-925a4d9825cb.png)
 
-You can acess the page clicking here -->
+You can acess the page clicking here --> https://geovanabeatriz.github.io/LandingPage_Yuka/
